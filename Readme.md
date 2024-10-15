@@ -9,7 +9,7 @@ The program is available in the repository and includes two files, `original.c` 
 To compile this code, you'll need to link against the pcap library. On Linux or macOS, you can do this by adding `-lpcap` to the `gcc` command:
 ```sh
 gcc -o original original.c -lpcap
-```
+```o
 Then, you can run the program by passing the name of the pcap file as the command line argument:
 ```sh
 ./original testdata.pcap
